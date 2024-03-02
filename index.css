@@ -7,6 +7,7 @@ body {
     background-color: #131313;
 }
 
+/* Navbar */
 .NavBar {
     display: flex;
     height: 56px;
@@ -82,3 +83,5 @@ body {
     height:90%;
     border-style: none;
 }
+
+/* Menu */
