@@ -52,11 +52,33 @@ body {
     align-items: center;
 }
 
-.search-box{
+.search-features{
     display:flex;
     align-items: center;
-    justify-content: center;
     height: 100%;
     width:80%;
 }
 
+.search-box{
+    display: flex;
+    position: relative;
+    left: 22%;
+    height: 70%;
+    width:44%;
+    align-items: center;
+    background-color: transparent;
+    border-style: solid;
+    border-color:#282828;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.textbox{
+    background-color: transparent;
+    color:white;
+    position: relative;
+    outline:none;
+    left:10px;
+    height:90%;
+    border-style: none;
+}
