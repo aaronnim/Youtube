@@ -55,6 +55,7 @@ body {
 
 .search-features{
     display:flex;
+    position: relative;
     align-items: center;
     height: 100%;
     width:80%;
@@ -128,6 +129,21 @@ body {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     cursor: pointer;
+}
+
+.voicebutton{
+    display:flex;
+    position: absolute;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    right:295px;
+    color:white;
+    background-color: #222222;
+    border-style: none;
+    font-size: large;
 }
 
 /* Menu */
