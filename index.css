@@ -64,9 +64,9 @@ body {
 .search-box{
     display: flex;
     position: relative;
-    left: 22.2%;
+    left: 30%;
     height: 69%;
-    width:49%;
+    width:40%;
     align-items: center;
     justify-content:center;
     background-color: transparent;
@@ -131,6 +131,15 @@ body {
     cursor: pointer;
 }
 
+.voicebox{
+    display:flex;
+    position: relative; 
+    left:30%;
+    height: 100%;
+    width:30%;
+    justify-content: start;
+}
+
 .voicebutton{
     display:flex;
     position: absolute;
@@ -139,7 +148,8 @@ body {
     padding-bottom: 12px;
     padding-left: 14px;
     padding-right: 14px;
-    right:295px;
+    top:7px;
+    left:10px;
     color:white;
     background-color: #222222;
     border-style: none;
