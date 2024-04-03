@@ -75,7 +75,7 @@ body {
     position: relative;
     align-items:center;
     justify-content: center;
-    margin-left:200px;
+    margin-left:4.1%;
     height: 100%;
     width: 70%;
 }
@@ -84,7 +84,7 @@ body {
     display: flex;
     position: relative;
     height: 69%;
-    width:55%;
+    width:57%;
     align-items: center;
     justify-content:center;
     background-color: transparent;
@@ -153,7 +153,7 @@ body {
     display:flex;
     position: relative; 
     height: 100%;
-    width:8%;
+    width:70px;
     justify-content: center;
     align-items: center;
 }
@@ -179,15 +179,6 @@ body {
     background-color: #373737;
 }
 
-.Controller{
-    display:flex;
-    position:relative;
-    height:100%;
-    width:220px;
-    margin-right: 30px;
-    justify-content: space-evenly;
-    align-items: center; 
-}
 
 .Right-End{
     display:flex;
@@ -195,20 +186,66 @@ body {
     width:220px;
 }
 
+.Controller{
+    display:flex;
+    position:relative;
+    height:100%;
+    width:220px;
+    margin-right: 30px;
+    justify-content: space-around;
+    align-items: center; 
+}
+
 .upload{
     display:flex;
     position: relative;
+    height:33px;
+    width:33px;
     color:white;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
     font-size:large;
+    cursor: pointer;
+}
+
+.upload i{
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height:33px;
+    width:33px;
+}
+
+.upload:hover{
+    border-radius: 50%;
+    background-color: #373737;
 }
 
 .notification{
     display:flex;
     position: relative;
+    height:33px;
+    width:33px;
     color:white;
-    align-items: start;
+    align-items: center;
+    justify-content: center;
     font-size:large;
+    cursor: pointer;
+}
+
+.notification i{
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height:33px;
+    width:33px;
+}
+
+.notification:hover{
+    border-radius: 50%;
+    background-color: #373737;
 }
 
 .Account{
@@ -218,6 +255,8 @@ body {
     height: 30px;
     width:30px;
     border-radius: 50%;
+    cursor: pointer;
 }
+
 
 /* Menu */
