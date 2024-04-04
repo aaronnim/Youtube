@@ -18,6 +18,8 @@ body {
     justify-content: space-between;
     padding-left: 17px;
     padding-right: 17px;
+    background-color: #131313;
+    z-index: 999;
 }
 
 .Left-side{
@@ -26,7 +28,7 @@ body {
 }
 
 .menu-bar-icon {
-    display: flex;
+    display: flex;  
     height:38px;
     align-items: center;
     cursor: pointer;
@@ -241,6 +243,7 @@ body {
     justify-content: center;
     height:33px;
     width:33px;
+    font-size: 21.5px;
 }
 
 .notification:hover{
@@ -260,3 +263,32 @@ body {
 
 
 /* Menu */
+
+.Menu{
+    display:flex;
+    position:absolute;
+    height:100%;
+    width:16%;
+    top:56px;
+    justify-content: center;
+    background-color: #131313;
+}
+
+.Home {
+    height:40px;
+    width:90%;
+    display:flex;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#1e1e1e;
+}
+
+.Home i,h1{
+    color:white;
+}
+
+.Home h1{
+    font-family:"Roboto","Arial",sans-serif;
+}
