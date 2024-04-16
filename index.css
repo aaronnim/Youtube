@@ -19,7 +19,8 @@ body {
     padding-left: 17px;
     padding-right: 17px;
     background-color: #131313;
-    z-index: 999;
+    z-index: 10; 
+    /* z-index too much xD I'll set it as 10 for now */
 }
 
 .Left-side{
@@ -270,7 +271,6 @@ body {
     justify-content: start;
     align-items: center;
     border-radius: 10px;
-    background-color:#2b2b2b;
 }
 
 .Home i,h1{
@@ -298,7 +298,6 @@ body {
     justify-content: start;
     align-items: center;
     border-radius: 10px;
-    background-color:#2b2b2b;
 }
 
 .Shorts svg,h1{
@@ -327,7 +326,6 @@ body {
     justify-content: start;
     align-items: center;
     border-radius: 10px;
-    background-color:#2b2b2b;
 }
 
 .Subscription svg,h1{
